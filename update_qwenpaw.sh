@@ -73,8 +73,7 @@ echo ""
 echo "正在使用 uv 强制更新 qwenpaw 包..."
 uv pip install --upgrade qwenpaw \
     --python "$QWENPAW_VENV/bin/python" \
-    --index-url "$PYPI_MIRROR" \
-    --quiet
+    --index-url "$PYPI_MIRROR"
 
 # --- 验证更新 ---
 echo ""
